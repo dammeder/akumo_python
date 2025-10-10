@@ -1,9 +1,8 @@
-# generate random either rock(0) scissors(1) rock(2) - computer
-#loop
-#ask the user for his input R,P,S   - human
-#if human input is rock and computer is rock - try again
-#if human is rock and computer is scissors - you win
-#if human is scis
+
+
+### >>>>>>>>>>>>>> I already wrote a rock paper scissors game a while ago <<<<<<<<<<<
+
+
 import random
 
 ROCK = "r"
