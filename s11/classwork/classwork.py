@@ -95,4 +95,5 @@ print(list_comp)
 inp = int(input("enter when to stop - "))
 
 list_cubed = [i**3 for i in range(inp + 1)]
-print(list_cubed)
+print(list_cubed) admfnaf
+
