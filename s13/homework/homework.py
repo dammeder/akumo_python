@@ -88,16 +88,14 @@ data = {
 
 inp = input("Enter the status (In Progress/ Completed/ Not Started): ").title()
 
-
 for dep in data['departments']:
     for team in dep['teams']:
         for proj in team['projects']:
             proj_status = proj['status']
 
             if inp == proj_status:
-                print(f"{dep['name']} Department projects that are {inp}: ")
+                print(f"\n{dep['name']} Department projects that are {inp}: ")
                 print(f"{proj['title']}")
-                print("")
 
 # Task: 2
 # If you check the employees dictionary it has a key called location. 
