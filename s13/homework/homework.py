@@ -82,7 +82,7 @@ data = {
 # ---- 
 # Input: Completed
 
-# Output: 
+# Output: jgkg
 # Engineering Department:
 # API Upgrade
 
@@ -94,8 +94,8 @@ for dep in data['departments']:
             proj_status = proj['status']
 
             if inp == proj_status:
-                print(f"\n{dep['name']} Department projects that are {inp}: ")
-                print(f"{proj['title']}")
+                print(f"{dep['name']} Department projects that are {inp}: ")
+                print(f"{proj['title']}\n")
 
 # Task: 2
 # If you check the employees dictionary it has a key called location. 
