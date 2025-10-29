@@ -21,3 +21,4 @@ def pyramid(word):
 pyramid("hello people")
 
 
+print('hello world')
