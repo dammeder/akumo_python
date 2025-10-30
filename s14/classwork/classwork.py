@@ -21,4 +21,10 @@ def pyramid(word):
 pyramid("hello people")
 
 
-print('hello world')
+def pyramid(word):
+    for i in range(1, len(word) + 1):
+        print(word[:i])
+
+pyramid("hello people")
+
+
