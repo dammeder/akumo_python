@@ -19,19 +19,19 @@
 
 
 
-# def plus_one(num):
-#     if num == 0:
-#         print(0)
-#     else:
-#         plus_one(num - 1)
-#         print(num)
+def plus_one(num):
+    if num == 0:
+        print(0)
+    else:
+        plus_one(num - 1)
+        print(num)
 
-# plus_one(5)
-# def plus_one(num)
-#     if num > 0:
-#         plus_one(num -1)
+plus_one(5)
+def plus_one(num)
+    if num > 0:
+        plus_one(num -1)
 
-#     print(num)
+    print(num)
 
 
 
